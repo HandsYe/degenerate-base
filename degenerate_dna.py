@@ -61,9 +61,9 @@ def main():
     
     while True:
         try:
-            sequence = input("\n请输入含有兼并碱基的DNA序列 (输入 'quit' 退出): ").strip()
+            sequence = input("\n请输入含有兼并碱基的DNA序列 (输入 'quit' 或 'q' 退出): ").strip()
             
-            if sequence.lower() == 'quit':
+            if sequence.lower() == 'quit' or sequence.lower() == 'q':
                 print("程序结束。")
                 break
             

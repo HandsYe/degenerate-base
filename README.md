@@ -78,7 +78,7 @@ python degenerate_dna.py
 
 ## 退出程序
 
-输入 `quit` 或按 `Ctrl+C` 可以退出程序。
+输入 `quit` 或 `q`，或者按 `Ctrl+C` 可以退出程序。
 
 ## 错误处理
 
