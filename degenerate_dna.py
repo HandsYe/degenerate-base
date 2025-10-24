@@ -67,6 +67,9 @@ def main():
                 print("程序结束。")
                 break
             
+            # 去除序列中的所有空格
+            sequence = sequence.replace(' ', '')
+            
             if not sequence:
                 print("输入不能为空，请重新输入。")
                 continue
